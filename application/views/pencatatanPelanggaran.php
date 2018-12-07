@@ -16,10 +16,6 @@
 		echo "<h1>Pencatatan Pelanggaran</h1>";
 		echo "<div class='row'>";
 			echo "<div class='col-md-6'>"; 
-				echo form_open('Welcome/pencatatanPelanggaran');
-					echo form_submit('gotoDashboard', 'Dashboard', ['class'=>'btn btn-primary']);
-					echo form_submit('btnLogout', 'Logout', ['class'=>'btn btn-primary']);							
-				echo form_close();
 			echo "</div>";
 		echo "</div>";
 		echo "<br><br>";
