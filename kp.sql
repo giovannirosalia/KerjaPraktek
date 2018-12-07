@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 01, 2018 at 05:27 AM
+-- Generation Time: Dec 06, 2018 at 06:19 AM
 -- Server version: 5.5.27
 -- PHP Version: 5.4.7
 
@@ -81,10 +81,10 @@ CREATE TABLE IF NOT EXISTS `member` (
 --
 
 INSERT INTO `member` (`username`, `password`, `nama`, `jenis`) VALUES
-('1001', '1001', 'WAKASEK 1001', 'WAKASEK'),
-('1002', '1002', 'GURU 1002', 'GURU'),
-('1003', '1003', 'WAKASEK 1003', 'WAKASEK'),
-('1004', '1004', 'GURU 1004', 'GURU');
+('1001', '1001', 'MARIA THERESIA NIKE KUSUMANINGRUM NUGROHO, S.PD.', 'WAKASEK'),
+('1002', '1002', 'SRI TUR PRAWINOTO, S.PD.', 'GURU'),
+('1003', '1003', 'THERESIA RACHMAYANTI, S.PD.', 'WAKASEK'),
+('1004', '1004', 'MARIA SANDRA NAULITTA SIPAHUTAR, S.S.', 'GURU');
 
 -- --------------------------------------------------------
 
@@ -155,7 +155,15 @@ CREATE TABLE IF NOT EXISTS `siswa` (
 --
 
 INSERT INTO `siswa` (`nomor_induk`, `nama`, `kelas`, `absen`, `poin`, `sp`, `status`) VALUES
-('18001', 'SISWA 1', 'X IPA 3', '1', 0, 0, 1);
+('18001', 'GIOVANNI ROSALIA NOVITA', 'X BHS', '1', 0, 0, 1),
+('18002', 'RENATA SLAMET SUPRAYOGI', 'X BHS', '2', 0, 0, 1),
+('18003', 'JONATHAN JOSCHA SIMAMORA', 'X BHS', '3', 0, 0, 1),
+('18004', 'ALEXANDER TOMMY', 'X MIPA', '1', 0, 0, 1),
+('18005', 'NATASYA WIJAYA', 'X MIPA', '2', 0, 0, 1),
+('18006', 'SABRIANTORO PRATAMA', 'X MIPA', '3', 0, 0, 1),
+('18007', 'ELIZABETH FELYCIA', 'X IPS', '1', 0, 0, 1),
+('18008', 'WIONA WIHELMINA', 'X IPS', '2', 0, 0, 1),
+('18009', 'ANGIELICA RUSLIE', 'X IPS', '3', 0, 0, 1);
 
 -- --------------------------------------------------------
 
